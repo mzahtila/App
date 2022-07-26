@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mzahtila.thesisapp">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/launch_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/launch_icon"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/mCartoLearnTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GroupDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/mCartoLearnTheme" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/map_main_title"
+
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizMainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".InfoActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".AnswersMainActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnswersEditActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Checkpoint 1 Activity -->
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint1.Chk1Q1Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint1.Chk1Q2Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint1.Chk1Q3Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint1.Chk1Q4Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint1.Chk1Q5Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint1.Chk1Q6Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint1.Chk1ComprehensionActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Checkpoint 2 Activity -->
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint2.Chk2Q1Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint2.Chk2Q2Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint2.Chk2Q3Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint2.Chk2Q4Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint2.Chk2ComprehensionActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Checkpoint 3 Activity -->
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint3.Chk3Q1Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint3.Chk3Q2Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint3.Chk3Q3Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint3.Chk3Q4Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint3.Chk3Q5Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint3.Chk3Q6Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint3.Chk3Q7Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint3.Chk3ComprehensionActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+
+        <!-- Checkpoint 4 Activity -->
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q1Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q2Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q3Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q4Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q5Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q6Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q8Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q9Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q10Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q11Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4Q7Activity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuizCheckpoints.QuizCheckpoint4.Chk4ComprehensionActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>

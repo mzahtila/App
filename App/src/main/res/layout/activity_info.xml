@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:orientation="vertical">
+
+            <!-- Part 1: Lecture goals -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="12dp"
+                    android:text="WHAT IS IT ABOUT?"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    app:fontFamily="sans-serif-smallcaps" />
+<!--
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="3dp"
+                    android:text="1. Intro"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps" />-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="8dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_lecture_goals1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginBottom="6dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_lecture_goals3"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/info_lecture_goals4" />
+            </LinearLayout>
+
+            <!-- Part 1: Playing instructions -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:paddingLeft="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="12dp"
+                    android:text="INSTRUCTIONS"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white"
+                    app:fontFamily="sans-serif-smallcaps" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="3dp"
+                    android:text="1. Group details"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_group_details" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"
+                    android:text="2. Route map"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_route" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="3dp"
+                    android:text="3. Quiz"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_quiz" />
+
+                <TextView
+                    android:id="@+id/checkpoints_subtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:paddingBottom="3dp"
+                    android:text="3.1. Checkpoints"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginBottom="8dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_checkpoints" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:paddingBottom="3dp"
+                    android:text="3.1.1. Topics"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginBottom="3dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_lectures1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginBottom="3dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_score_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="42dp"
+                    android:layout_marginLeft="42dp"
+                    android:layout_marginBottom="12dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_score_2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:paddingBottom="3dp"
+                    android:text="3.1.2. Open questions"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginBottom="12dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_comprehension" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:paddingBottom="3dp"
+                    android:text="3.2. Review answers"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_review_answers" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:paddingBottom="3dp"
+                    android:text="3.3. Score"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps" />
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_score_3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:paddingBottom="3dp"
+                    android:text="3.3. Submit"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif-smallcaps" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginBottom="16dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_submit" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:background="@color/colorAccent"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:shadowColor="@android:color/darker_gray"
+                    android:text="@string/info_copyright"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

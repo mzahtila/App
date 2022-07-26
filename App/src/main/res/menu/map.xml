@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapActivity">
+
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/info"
+        android:orderInCategory="100"
+        map:showAsAction="always"
+        android:title="Info" >
+    </item>
+
+    <item
+        android:id="@+id/action_initial_map"
+        android:icon="@drawable/initial_map"
+        android:orderInCategory="200"
+        map:showAsAction="always"
+        android:title="Initial Map" >
+    </item>
+
+</menu>

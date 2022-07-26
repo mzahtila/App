@@ -1,0 +1,313 @@
+<resources>
+    <!-- ******************************************************************************************* -->
+    <!-- General -->
+    <!-- ******************************************************************************************* -->
+    <!-- Toolbar titles -->
+    <string name="app_name">mCartoLearn</string>
+    <string name="group_details_title">Group details</string>
+    <string name="map_main_title">Route map</string>
+    <string name="quiz_main_title">Time to learn</string>
+    <string name="checkpoints_main_title">Choose your checkpoint:</string>
+    <string name="answers_main_title">Your answers</string>
+    <string name="edit_answers_title">Edit your answers</string>
+    <string name="info_title">Info</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <string name="chekcpoint_comprehension_question_subtitle">Give your definition</string> <!-- Toolbar subtitle -->
+    <string name="no_answer">NOT ANSWERED</string> <!-- Message for e-mail for comprehension questions that were not answered -->
+    <string name="done">Done</string> <!-- Done button content -->
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- Strings for AnswersMainActivity and AnswersEditActivity -->
+    <string name="quiz_chk1_answ">Checkpoint 1: Elevation tints</string>
+    <string name="quiz_chk2_answ">Checkpoint 2: Hachuring</string>
+    <string name="quiz_chk3_answ">Checkpoint 3: Shading</string>
+    <string name="quiz_chk4_answ">Checkpoint 4: Contour lines and elevations</string>
+    <string name="question">Question:</string>
+    <string name="answer">Your answer:</string>
+    <string name="answers_activity_chk3_question">What is shading? Please give your definition with mentioning some of its characteristics: when is it used, what is it used for, which elements are important, etc.</string>
+    <string name="answers_activity_chk4_question">What are isolines? Try to think of how can they be created. Does more than one type exist? Try to name them. What do they represent? Which terrain characteristics they show on a map? Can you think of something more?</string>
+    <string name="quiz_no_answer">It looks like you did not answer this one yet.</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- EditText view hints -->
+    <string name="type_answer_here">Type your answer here…</string>
+    <string name="answer_missing">You did not answer the question. Try again after typing an answer :)</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- Dialogs -->
+    <string name="dialog_exit">If you leave, your score will not be saved.</string>
+    <string name="dialog_successfully_finished"><big>Well done! Topic completed. </big>\n\nRemember, you can view and edit your answers in the <b>Review answers</b>.</string>
+    <string name="dialog_wrong_answer">Nice try, but not correct. Try discussing it further.</string>
+    <string name="dialog_okay">Okay.</string>
+    <string name="dialog_location_permission_denied">Please note: For using self-positioning you will need to allow location permission.</string>
+    <string name="dialog_permission_rationale_location">Access to the location service is required to demonstrate the \\\'my location\\\' feature, which shows your current location on the map.</string>
+    <string name="dialog_bummer"><b>Oh no, it’s a Bummer! :/</b>\nIt’s not sending an e-mail so far, but nice that you’ve reached the end.\n\n<i>Make sure you give feedback on your results and answers personally to professors this time :)</i></string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- Toasts -->
+    <string name="toast_changes_saved">Good job! Changes saved.</string>
+    <string name="toast_changes_dismissed">Looks like you were happy with your answers :)</string>
+    <string name="toast_permission_required">Location permission is required for this demo.</string>
+    <string name="selection_missing">You did not answer the question. Try selecting an answer.</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- ******************************************************************************************* -->
+
+    <!-- ******************************************************************************************* -->
+    <!-- Info page content -->
+    <!-- ******************************************************************************************* -->
+    <string name="info_lecture_goals1">Dear student, this app was developed for an outdoor exercise for participants of the “Alpine Cartographic Field School.” It covers the topic of terrain representation on maps. There are four main cartographic methods used for it:</string>
+<!--    <string name="info_lecture_goals2">The topic covered in the app is terrain representation on maps. There are four main cartographical methods used for it:</string>-->
+    <string name="info_lecture_goals3">1. Contour lines and elevations\n 2. Shading\n 3. Elevation tints\n 4. Hachuring</string>
+    <string name="info_lecture_goals4">Your task is to complete all the quiz topics and submit your results.</string>
+    <string name="info_group_details">Save your group’s number (will be assigned by professors) and the names of its members. This info will be submitted along with your results for the evaluation. Additionally, you may also name your group whatever you like :)</string>
+    <string name="info_route">Each of the four quiz topics relates to one of the four checkpoints. You can find the checkpoints marked on the hiking route on the map. These locations relate to questions in quiz topics and will help you in answering them.</string>
+    <string name="info_quiz">Complete each of the four topics.</string>
+    <string name="info_checkpoints">Each checkpoint represents one cartographic method for displaying relief on maps. Once you start a topic, it’s possible to leave and restart it,  but the ones competed in the first try are better graded at the end! Otherwise, it wouldn’t be fair, right?</string>
+    <string name="info_lectures1">Each topic is like a small quiz with questions; you need to answer correctly to a question to proceed to the next one. <b>There is no previous theoretical input given!</b> Don’t worry; it is not hard if you focus. <b>Just think at loud, discuss and debate with your colleagues in the group to find correct answers.</b> Some questions are related to previous ones, so remembering the previous correct answers will help you.</string>
+<!--    <string name="info_lectures2"><b>There is no previous theoretical input given! Don’t worry, it is not hard if you focus. Just think at loud, discuss and debate with your colleagues in the group to find correct answers. Some questions are related to previous ones, so remembering the previous correct answers will help you.</b></string>-->
+    <string name="info_comprehension">At the end of each topic, you will have an open question. Here, you have to put in your own words what you have learned about the cartographic method. Use what you have learned in the previous questions to compel a meaningful summary.</string>
+    <string name="info_review_answers">After completing all the checkpoints, you may review your answers to the four open questions. If you like, make changes before submitting them.</string>
+    <string name="info_score_1">You will collect points at each question:</string>
+    <string name="info_score_2"><b>+2 points</b> for answering in one attempt,\n<b>+1 point</b> for answering in two attempts,\n<b>+0 points</b> for more than two attempts.</string>
+    <string name="info_score_3">The final score sums points from each of the checkpoints.<i>Try to get a higher score by making meaningful discussions in finding the right answers!</i></string>
+    <string name="info_submit">Okay, you answered it all? Congratulations! Press <b>Submit</b> and send your results. (You will need an internet connection for that.)</string>
+    <string name="info_copyright">Developed by Moris Zahtila\nSupervised by Prof. Dirk Burghardt\nTU Dresden. Last revision: 2019.</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- ******************************************************************************************* -->
+
+    <!-- ******************************************************************************************* -->
+    <!-- Group details page content -->
+    <!-- ******************************************************************************************* -->
+    <string name="group_det_nam">Number</string>
+    <string name="group_det_num">Name</string>
+    <string name="group_det_mem">Members</string>
+    <string name="group_det_num_hint">1, 2, 3&#8230;</string>
+    <string name="group_det_nam_hint">Give your group a name&#8230;</string>
+    <string name="group_det_mem_hint">Type names here&#8230;</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- ******************************************************************************************* -->
+
+    <!-- ******************************************************************************************* -->
+    <!-- Checkpoints -->
+    <!-- ******************************************************************************************* -->
+    <!-- Checkpoint names -->
+    <string name="quiz_lecture1">Elevation tints</string>
+    <string name="quiz_lecture2">Hachuring</string>
+    <string name="quiz_lecture3">Shading</string>
+    <string name="quiz_lecture4">Contour lines</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- Hints at checkpoint -->
+    <string name="checkpoint_hint1">See the example: Click the toolbar button.</string>
+    <string name="checkpoint_hint2">Click the toolbar button.</string>
+    <string name="checkpoint_hint3">(Rotate the screen 90 degrees to the left to get a North view)</string>
+    <!-- Checkpoint1 questions: Elevation tints -->
+    <string name="chk1_question1">1. What do elevation tints use to show the relief on maps?</string>
+    <string name="chk1_question2">2. Look at the example. Do these legends show a classification by elevation tints?</string>
+    <string name="chk1_question3">3. Look around you. How many colors you do need to use to represent the surrounding area on a 1:20K map using elevation tints?</string>
+    <string name="chk1_question4">4. Why were the previous answers not suitable for elevation tints?</string>
+    <string name="chk1_question5">5. How many colors do elevation tints usually use?</string>
+    <string name="chk1_question6">6. Look at the example. Find the elevation of the marked point using the information given by elevation tints.</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- Checkpoint2 questions: Hachuring -->
+    <string name="chk2_question1">1. Which technique is used to represent rocks and cliffs on maps?</string>
+    <string name="chk2_question2">2. Take a careful look at the examples and choose <b>three statements</b> that are valid for the hachuring technique.</string>
+    <string name="chk2_question3">3. Look around you and compare the map with what you see. How is hachuring used on the map?\n<b>Select two statements.</b></string>
+    <string name="chk2_question4">4. Look at the mountain peaks around you. Compare the map with what you see and discuss the hachuring technique used. Use your conclusions in the next question.</string>
+    <string name="chk2_question4_hint">DISCUSS:\nHow was the hachuring made?\nDoes it show well what you see in reality?\nIdentify the most prominent parts of the hachuring. Is there a difference in representing steep slopes and rocky cliffs?\nEtc.</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- Checkpoint3 questions: Shading -->
+    <string name="chk3_question1">1. In which ways does shading represent relief on maps?\nMore than one answer may be correct.</string>
+    <string name="chk3_question2">2. Look at the example. What is the <b>most important</b> element for relief shading?</string>
+    <string name="chk3_question3">4. Since the light source is normally at the NW, the terrain is usually illuminated from:</string>
+    <string name="chk3_question4">5. Compare the examples. What may happen if we change the position of the light source for 180 degrees, from the upper left (upper map) to the bottom right (lower map) corner?</string>
+    <string name="chk3_question5">3. Look at the map. Try to find the position of the light source used for terrain shading? Compare with what you see around you and with information given by contour lines.</string>
+    <string name="chk3_question6">6. Does the terrain shading give enough information for a detailed understanding of the terrain?</string>
+    <string name="chk3_question7">7. Carefully check the two example maps and then evaluate the statement:\n<i><b>Considering contour lines is important for proper terrain shading.</b></i></string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- Checkpoint4 questions: Contour lines -->
+    <string name="chk4_question1">1. Which <b>three statements</b> are true for contour lines?</string>
+    <string name="chk4_question2">2. What are the <b>two further characteristics</b> of contour lines?</string>
+    <string name="chk4_question3">3. Evaluate the following statement:\n<i><b>Closely spaced contour lines indicate a steep slope.</b></i></string>
+    <string name="chk4_question4">4. Observe the hill where the Südwandhutte is located. Which <b>two statements</b> describe contour lines that would represent that hill on a map?</string>
+    <string name="chk4_question5">5. Evaluate the following statement:\n<i><b>While flat areas might best be mapped with a 5-meter contour interval, stepped terrain may have a 20-meter or larger interval. This is why the contour interval is still specified on the legend of a topographic map.</b></i></string>
+    <string name="chk4_question6">6. Look at the example map. What is the approximate elevation difference between the river valley to the south and Südwandhutte if the equidistance is 20 meters?</string>
+    <string name="chk4_question7">7. Why are some contour lines thicker than others?</string>
+    <string name="chk4_question8">8. Look at the example. The blue track on the map indicates that:</string>
+    <string name="chk4_question9">9. Look at the example. Which slope on the map is the least steep one?</string>
+    <string name="chk4_question10">10. Contour lines may indicate hills, mountains, valleys, and:</string>
+    <string name="chk4_question11">11. Compare the map example with the landscape in front of you. Are there ridges indicated on the map by contour lines?</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- Comprehension questions -->
+    <string name="chk1_comprehension_question">Is the choice of colors in elevation tints arbitrary? If not, how should these colors be arranged? Look again around you and argue how many and which colors would you use to represent your surrounding on maps of large and small scales?</string>
+    <string name="chk2_comprehension_question">What is the purpose of hachuring?\nSelect the statement(s) you consider most relevant.</string>
+    <string name="chk2comp_hint">You will not get points here. Your answers will be saved as your summary of the topic.</string>
+    <string name="chk3_comprehension_question">What is terrain shading?</string>
+    <string name="chk3_comprehension_question_hint">Give your definition and mention some of its characteristics: when is it used, what for, which elements are important, etc.</string>
+    <string name="chk4_comprehension_question">What are contour lines?</string>
+    <string name="chk4_comprehension_question_hint">Think of how can they be created. Does more than one type exist? Try to name them. What do they represent? Which terrain characteristics they show on a map? Can you think of something more?</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- ******************************************************************************************* -->
+
+
+    <!-- ******************************************************************************************* -->
+    <!-- Offered answers to questions -->
+    <!-- ******************************************************************************************* -->
+    <!-- (CHK1) Checkpoint 1 -->
+    <!-- CHK1: Offered answers to Question 1 -->
+    <string name="chk1q1answ1">Symbols</string>
+    <string name="chk1q1answ2">Lines</string>
+    <string name="chk1q1answ3">Colors</string>
+    <string name="chk1q1answ4">Fonts</string>
+    <string name="chk1q1answ5">Hierarchy of layers</string>
+    <!-- CHK1: Offered answers to Question 2 -->
+    <string name="chk1q2answ1">Yes, because they show colors</string>
+    <string name="chk1q2answ2">Yes, because they show vegetation</string>
+    <string name="chk1q2answ3">No, they show vegetation symbolization</string>
+    <string name="chk1q2answ4">No, only some colors of color pallets are shown</string>
+    <!-- CHK1: Offered answers to Question 3 -->
+    <string name="chk1q3answ1">1 &#8212; green for vegetation</string>
+    <string name="chk1q3answ2">2 &#8212; green for vegetation and white for mountain peaks</string>
+    <string name="chk1q3answ3">3 &#8212; dark green for woods, light green for meadows, and white for mountain peaks</string>
+    <string name="chk1q3answ4">4 &#8212; dark green for woods, light green for meadows, white for mountain peaks, and gray for valley bottoms</string>
+    <string name="chk1q3answ5">I do not agree with any of the answers</string>
+    <!-- CHK1: Offered answers to Question 4 -->
+    <string name="chk1q4answ1">It is necessary to use more than four colors</string>
+    <string name="chk1q4answ2">This technique is not used to represent vegetation, but elevation ranges</string>
+    <string name="chk1q4answ3">This technique is only used on small-scale maps (1:1M or smaller)</string>
+    <string name="chk1q4answ4">This technique is only used on large-scale maps (1:5K or larger)</string>
+    <!-- CHK1: Offered answers to Question 5 -->
+    <string name="chk1q5answ1">2&#8211;3 &#8212; For hills and valleys, and sometimes mountains</string>
+    <string name="chk1q5answ2">Min. 5 &#8212; Otherwise, there is no sufficient information about relief given on the map</string>
+    <string name="chk1q5answ3">Depends on the number of elevation ranges that have to be differentiated</string>
+    <string name="chk1q5answ4">Any number &#8212; Layer tints are only used for aesthetic purpose anyway</string>
+    <!-- CHK1: Offered answers to Question 6 -->
+    <string name="chk1q6answ1">1650 m</string>
+    <string name="chk1q6answ2">1680 m</string>
+    <string name="chk1q6answ3">1720 m</string>
+    <string name="chk1q6answ4">1600&#8211;1800 m (It is only possible to determine the elevation range with elevation tints)</string>
+    <string name="chk1q6answ5">None of the above</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- (CHK2) Checkpoint 2 -->
+    <!-- CHK2: Offered answers to Question 1 -->
+    <string name="chk2q1answ1">Symbolization</string>
+    <string name="chk2q1answ2">Shading</string>
+    <string name="chk2q1answ3">Hachuring</string>
+    <string name="chk2q1answ4">Combination of contour lines and shading</string>
+    <string name="chk2q1answ5">They are not being shown on maps</string>
+    <!-- CHK2: Offered answers to Question 2 -->
+    <string name="chk2q2answ1">Rock hachuring is mostly hand-made.</string>
+    <string name="chk2q2answ2">Rock hachuring would not be used on today\'s maps.</string>
+    <string name="chk2q2answ3">This expensive method can only be produced by specialists.</string>
+    <string name="chk2q2answ4">Representing cliffs and rocks on topographic maps is (still) a very difficult task.</string>
+    <string name="chk2q2answ5">Representing cliffs and rocks on topographic maps can be easily done digitally today.</string>
+    <!-- CHK2: Offered answers to Question 3 -->
+    <string name="chk2q3answ1">Rocks are represented with lines.</string>
+    <string name="chk2q3answ2">Dots indicate debris and scree on the surface and are aligned to give a rough idea on the direction of the mass movement.</string>
+    <string name="chk2q3answ3">Rocks and cliffs are indicated with brown&#8211;colored areas.</string>
+    <!-- CHK2: Offered answers to comprehension question -->
+    <string name="chk2comp_answ1">To make the map look like it has more content.</string>
+    <string name="chk2comp_answ2">To give more accurate information on elevations.</string>
+    <string name="chk2comp_answ3">To show the best locations for alpine climbing.</string>
+    <string name="chk2comp_answ4">To show good artistic skills.</string>
+    <string name="chk2comp_answ5">To use graphical tricks to give steep rocks depicted on a map equivalent visual importance compared to that observed in nature.</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- (CHK3) Checkpoint 3 -->
+    <!-- CHK3: Offered answers to Question 1 -->
+    <string name="chk3q1answ1">Naturally</string>
+    <string name="chk3q1answ2">Aesthetically</string>
+    <string name="chk3q1answ3">Intuitive</string>
+    <string name="chk3q1answ4">Shading is not a cartographic technique</string>
+    <!-- CHK3: Offered answers to Question 2 -->
+    <string name="chk3q2answ1">Quality pencil</string>
+    <string name="chk3q2answ2">Good software</string>
+    <string name="chk3q2answ3">Artistic skills</string>
+    <string name="chk3q2answ4">Light direction</string>
+    <string name="chk3q2answ5">3D base map</string>
+    <!-- CHK3: Offered answers to Question 3 -->
+    <string name="chk3q3answ1">Upper-left corner</string>
+    <string name="chk3q3answ2">Upper-right corner</string>
+    <string name="chk3q3answ3">Bottom-left corner</string>
+    <string name="chk3q3answ4">Bottom-right corner</string>
+    <string name="chk3q3answ5">Zenith</string>
+    <!-- CHK3: Offered answers to Question 4 -->
+    <string name="chk3q4answ1">Nothing &#8212; there are no differences in the terrain between the two map examples.</string>
+    <string name="chk3q4answ2">It gets much harder to read the map.</string>
+    <string name="chk3q4answ3">Terrain inverts &#8212; e.g., mountains become depressions, valleys become ridges, etc.</string>
+    <string name="chk3q4answ4">None of mentioned &#8212; these two maps show two different locations.</string>
+    <string name="chk3q4answ5">Differences between the two maps are not caused by the positions of light sources.</string>
+    <!-- CHK3: Offered answers to Question 5 -->
+    <string name="chk3q5answ1">The light source is at the north</string>
+    <string name="chk3q5answ2">The light source is at the north-west</string>
+    <string name="chk3q5answ3">The light source is at the south-west</string>
+    <string name="chk3q5answ4">The light source is at the south</string>
+    <string name="chk3q5answ5">The light source is at the zenith</string>
+    <string name="chk3q5answ6">The map does not show a shaded terrain, but something else</string>
+    <!-- CHK3: Offered answers to Question 6 -->
+    <string name="chk3q6answ1">Terrain shading is self-sufficient on the map.</string>
+    <string name="chk3q6answ2">Terrain shading is a bad visual method.</string>
+    <string name="chk3q6answ3">Terrain shading provides a full understanding of the terrain.</string>
+    <string name="chk3q6answ4">Terrain shading only makes maps look more pretty.</string>
+    <string name="chk3q6answ5">Terrain shading gives only a better understanding (impression) of the terrain.</string>
+    <!-- CHK3: Offered answers to Question 7 -->
+    <string name="chk3q7answ1">False &#8212; Shaded terrain looks same on both maps.</string>
+    <string name="chk3q7answ2">True &#8212; Terrain shading on the top map is not detailed enough and doesn\'t follow contour lines well (e.g., some ribs and hills are missing).</string>
+    <string name="chk3q7answ3">False &#8212; Terrain shading on the bottom map is too detailed because it followed contour lines (e.g., too many ribs and hills are shown).</string>
+    <string name="chk3q7answ4">False &#8212; Proper terrain shading depends on the map scale only.</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- (CHK4) Checkpoint 4 -->
+    <!-- CHK4: Offered answers to Question 1 -->
+    <string name="chk4q1answ1">Contour lines are never closed polylines like circles.</string>
+    <string name="chk4q1answ2">Concentric circles of contour lines indicate a hilltop, mountain peak, or depression.</string>
+    <string name="chk4q1answ3">Distance between contour lines on the map is proportional to the slope.</string>
+    <string name="chk4q1answ4">Distance between contour lines on the map is not proportional to the slope.</string>
+    <string name="chk4q1answ5">Contour lines are perpendicular to lines of steepest slopes.</string>
+    <string name="chk4q1answ6">Contour lines are never perpendicular to lines of steepest slopes.</string>
+    <!-- CHK4: Offered answers to Question 2 -->
+    <string name="chk4q2answ1">They are always unevenly spaced</string>
+    <string name="chk4q2answ2">Connect points of equal elevation</string>
+    <string name="chk4q2answ3">Evenly spaced contour lines indicate a gentle slope</string>
+    <string name="chk4q2answ4">They never cross, split, or intersect &#8212; at a cliff, they might merge</string>
+    <!-- CHK4: Offered answers to Question 3 -->
+    <string name="chk4q3answ1">True</string>
+    <string name="chk4q3answ2">False</string>
+    <string name="chk4q3answ3">Sometimes</string>
+    <string name="chk4q3answ4">Only if unevenly spaced</string>
+    <!-- CHK4: Offered answers to Question 4 -->
+    <string name="chk4q4answ1">Contour lines are not closed polygons.</string>
+    <string name="chk4q4answ2">Contour lines are closed polygons like circles or ovals.</string>
+    <string name="chk4q4answ3">Contour lines are evenly spaced because there are no big differences in slopes.</string>
+    <string name="chk4q4answ4">Contour lines are unevenly spaced because there are big differences in slopes.</string>
+    <!-- CHK4: Offered answers to Question 5 -->
+    <string name="chk4q5answ1">True</string>
+    <string name="chk4q5answ2">False</string>
+    <!-- CHK4: Offered answers to Question 6 -->
+    <string name="chk4q6answ1">80&#8211;90 m</string>
+    <string name="chk4q6answ2">270&#8211;370 m</string>
+    <string name="chk4q6answ3">The map does not indicate any valley</string>
+    <string name="chk4q6answ4">There is not enough information available to solve the task</string>
+    <!-- CHK4: Offered answers to Question 7 -->
+    <string name="chk4q7answ1">Usually, due to printing malfunctions</string>
+    <string name="chk4q7answ2">To indicate directions of ridges</string>
+    <string name="chk4q7answ3">These are index contours and, therefore, labeled</string>
+    <string name="chk4q7answ4">These are special for never intersecting with other contour lines</string>
+    <!-- CHK4: Offered answers to Question 8 -->
+    <string name="chk4q8answ1">Steep terrain</string>
+    <string name="chk4q8answ2">Gentle terrain slopes</string>
+    <string name="chk4q8answ3">Uniform terrain with no visible differences in steepness</string>
+    <string name="chk4q8answ4">Variable terrain with noticeable differences in steepness</string>
+    <!-- CHK4: Offered answers to Question 9 -->
+    <string name="chk4q9answ1">Red</string>
+    <string name="chk4q9answ2">Black</string>
+    <string name="chk4q9answ3">Pink</string>
+    <string name="chk4q9answ4">Blue</string>
+    <!-- CHK4: Offered answers to Question 10 -->
+    <string name="chk4q10answ1">Ribs</string>
+    <string name="chk4q10answ2">Ridges</string>
+    <string name="chk4q10answ3">Depressions</string>
+    <string name="chk4q10answ4">Plateaus</string>
+    <string name="chk4q10answ5">All of the above</string>
+    <!-- CHK4: Offered answers to Question 11 -->
+    <string name="chk4q11answ1">No – Only a valley is indicated</string>
+    <string name="chk4q11answ2">Yes – One ridge from Südwandhütte towards the SW</string>
+    <string name="chk4q11answ3">Yes – Several ridges in different directions</string>
+    <string name="chk4q11answ4">No – Contour lines do not indicate any ridges</string>
+    <!-- ____________________________________________________________________________________________ -->
+    <!-- ******************************************************************************************* -->
+
+</resources>
